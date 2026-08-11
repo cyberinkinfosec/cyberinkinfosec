@@ -1,8 +1,7 @@
 <h1 align="center">Hi 👋, I'm Renjith RK</h1>
-<h3 align="center">Security Researcher | Black Box Pentester | Offensive Security</h3>
+<h3 align="center">Penetration Tester @ capecom | Black Box Pentester | Offensive Security</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Experience-2%20Years-brightgreen?style=flat-square" alt="Experience"/>
   <img src="https://img.shields.io/badge/Focus-Black%20Box%20Pentesting-red?style=flat-square" alt="Focus"/>
   <img src="https://img.shields.io/badge/Status-Actively%20Hunting-orange?style=flat-square" alt="Status"/>
 </p>
@@ -11,7 +10,7 @@
 
 ### 🕵️ About Me
 
-I'm a security researcher with **2 years of hands-on experience** in penetration testing, with a strong pull toward the **offensive side** — black box engagements especially, where I get to think like an attacker with zero prior knowledge of the target.
+I'm an independent security researcher behind **CyberInk InfoSec**, with a strong pull toward the **offensive side** — black box engagements especially, where I get to think like an attacker with zero prior knowledge of the target.
 
 My work spans authorized penetration tests and independent vulnerability research, followed through with responsible disclosure. A couple of things I've dug up along the way:
 
@@ -52,11 +51,11 @@ I build my scripting and automation with Python, JavaScript, and HTML — often 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=cyberinkinfosec&show_icons=true&theme=radical" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR-GITHUB-USERNAME&show_icons=true&theme=radical" alt="GitHub Stats"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=cyberinkinfosec&theme=radical" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR-GITHUB-USERNAME&theme=radical" alt="GitHub Streak"/>
 </p>
 
 ---
@@ -66,5 +65,8 @@ I build my scripting and automation with Python, JavaScript, and HTML — often 
 <p align="left">
   <a href="https://linkedin.com/in/renjith24" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="mailto:renjith@cyberinkinfosec.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
