@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Renjith RK</h1>
-<h3 align="center">Security Researcher @ CyberInk InfoSec | Black Box Pentester | Offensive Security</h3>
+<h3 align="center">Penetration Tester @ capecom | Black Box Pentester | Offensive Security</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Black%20Box%20Pentesting-red?style=flat-square" alt="Focus"/>
