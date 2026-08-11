@@ -478,7 +478,7 @@
     </div>
   </section>
 
-  <section class="section" id="findings">
+  <<section class="section" id="findings">
     <div class="wrap">
       <div class="eyebrow">disclosures</div>
       <h2>Selected findings</h2>
@@ -486,7 +486,7 @@
 
       <div class="finding">
         <div class="finding-top">
-          <span class="redacted">target: [ redacted ]</span>
+          <span class="redacted">Target: [ Redacted ] — Technopark-Linked Company </span>
           <span class="severity sev-high">HIGH — A01:2021</span>
         </div>
         <h3>Hardcoded bearer token with broken access control</h3>
@@ -499,13 +499,26 @@
 
       <div class="finding">
         <div class="finding-top">
-          <span class="redacted">target: [ redacted ]</span>
+          <span class="redacted">Target: [ Redacted ] — USA Medical AI Product</span>
           <span class="severity sev-critical">CRITICAL — Chained</span>
         </div>
         <h3>Framework fingerprint → diagnostic endpoint → credential exposure</h3>
         <p>During an authorized engagement, chained backend framework fingerprinting into an exposed diagnostic endpoint, extracting live JWT tokens, AWS credentials, and other in-memory secrets.</p>
         <div class="finding-meta">
           <span>TYPE <b>Vulnerability Chain</b></span>
+          <span>STATUS <b>Reported & Fixed</b></span>
+        </div>
+      </div>
+
+      <div class="finding">
+        <div class="finding-top">
+          <span class="redacted">Target: [ Redacted ] — UAE GOVT-Linked site</span>
+          <span class="severity sev-high">HIGH — Broken Auth</span>
+        </div>
+        <h3>Token reuse vulnerability enabling attacker access</h3>
+        <p>Identified a token reuse issue where a previously issued session token could be replayed for access. In this case, the token had already been reused by an attacker in the wild before the issue was found. Worked with the affected organization to confirm the flaw and get it remediated.</p>
+        <div class="finding-meta">
+          <span>TYPE <b>Token Reuse</b></span>
           <span>STATUS <b>Reported & Fixed</b></span>
         </div>
       </div>
