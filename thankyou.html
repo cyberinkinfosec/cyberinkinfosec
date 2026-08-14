@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Message Sent — CyberInk InfoSec</title>
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<style>
+  .ty-section {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+  }
+  .ty-box {
+    text-align: center;
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  .ty-icon {
+    font-family: var(--mono);
+    font-size: 40px;
+    color: var(--accent);
+    margin-bottom: 24px;
+    display: block;
+    animation: fadeUp 0.5s cubic-bezier(.2,.7,.3,1) forwards;
+  }
+  .ty-box h1 {
+    font-family: var(--mono);
+    font-size: clamp(26px, 4vw, 36px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 14px;
+    animation: fadeUp 0.5s 0.08s cubic-bezier(.2,.7,.3,1) both;
+  }
+  .ty-box h1 .accent { color: var(--accent); }
+  .ty-box p {
+    color: var(--text-muted);
+    font-size: 15.5px;
+    max-width: 44ch;
+    margin: 0 auto 28px;
+    animation: fadeUp 0.5s 0.16s cubic-bezier(.2,.7,.3,1) both;
+  }
+  .ty-actions {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: fadeUp 0.5s 0.24s cubic-bezier(.2,.7,.3,1) both;
+  }
+  .ty-meta {
+    margin-top: 36px;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    color: var(--text-dim);
+    animation: fadeUp 0.5s 0.32s cubic-bezier(.2,.7,.3,1) both;
+  }
+  .ty-meta a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--accent);
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ty-icon, .ty-box h1, .ty-box p, .ty-actions, .ty-meta {
+      animation: none;
+    }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a href="index.html"><img src="assets/logo.png" alt="CyberInk InfoSec" class="logo-img"></a>
+    <ul class="nav-links">
+      <li><a href="index.html#services">services</a></li>
+      <li><a href="index.html#hire">hire freelance</a></li>
+      <li><a href="index.html#approach">approach</a></li>
+      <li><a href="index.html#contact">contact</a></li>
+    </ul>
+    <a class="nav-cta" href="index.html#contact">Get in touch</a>
+  </div>
+</nav>
+
+<main>
+  <section class="ty-section">
+    <div class="wrap">
+      <div class="ty-box">
+        <span class="ty-icon">✓</span>
+        <h1>Message <span class="accent">received.</span></h1>
+        <p>Thanks for reaching out. We'll review your message and get back to you with scope and availability — usually within one business day.</p>
+        <div class="ty-actions">
+          <a class="btn primary" href="index.html">Back to home</a>
+          <a class="btn" href="index.html#services">View services</a>
+        </div>
+        <p class="ty-meta">
+          Didn't mean to submit? Email us directly at
+          <a href="mailto:info@cyberinkinfosec.com">info@cyberinkinfosec.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">CyberInk InfoSec — offensive security &amp; AI security testing</div>
+</footer>
+
+</body>
+</html>
