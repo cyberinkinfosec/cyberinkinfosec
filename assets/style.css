@@ -65,7 +65,7 @@
     padding-top:14px;
     padding-bottom:14px;
   }
-  .logo-img{height:40px;width:auto;display:block;}
+  .logo-img{height:64px;width:auto;display:block;}
   .nav-links{
     display:flex;
     gap:28px;
@@ -99,7 +99,7 @@
   }
   @media (max-width:520px){
     .wrap{padding:0 16px;}
-    .logo-img{height:30px;}
+    .logo-img{height:48px;}
     .nav-links{gap:12px;font-size:11px;}
     .nav-cta{padding:7px 12px;font-size:11px;}
   }
